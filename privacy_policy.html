@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - UPI Money Manager</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(135deg, #00BFA6, #00695C);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2rem; margin-bottom: 8px; }
+        .header p { opacity: 0.85; font-size: 0.95rem; }
+        .container {
+            max-width: 800px;
+            margin: -30px auto 40px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 40px;
+        }
+        h2 {
+            color: #00695C;
+            margin: 32px 0 12px;
+            font-size: 1.3rem;
+        }
+        h2:first-child { margin-top: 0; }
+        p, li { color: #333; margin-bottom: 10px; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #e8f5e9;
+            border-left: 4px solid #00BFA6;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        a { color: #00695C; }
+        @media (max-width: 600px) {
+            .container { margin: -20px 12px 30px; padding: 24px; }
+            .header { padding: 40px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>UPI Money Manager</h1>
+        <p>Privacy Policy</p>
+    </div>
+
+    <div class="container">
+        <p><strong>Effective Date:</strong> 17 May 2026</p>
+        <p><strong>Last Updated:</strong> 17 May 2026</p>
+
+        <div class="highlight">
+            <strong>Summary:</strong> UPI Money Manager is a fully offline personal finance app. Your financial data never leaves your device. We do not collect, store, or transmit any personal or financial information to any server.
+        </div>
+
+        <h2>1. Information We Access</h2>
+        <p>To provide automatic transaction tracking, the app may request access to:</p>
+        <ul>
+            <li><strong>SMS Messages (READ_SMS, RECEIVE_SMS):</strong> Used solely to parse banking transaction SMS on your device to auto-record spending. SMS content is processed locally and never uploaded.</li>
+            <li><strong>Notifications (NotificationListenerService):</strong> Used to capture transaction alerts from banking and UPI apps (Google Pay, PhonePe, Paytm, etc.) to auto-record spending. Notification content is processed locally and never uploaded.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Used to send you local spending summaries and budget alerts. These are generated entirely on-device.</li>
+        </ul>
+
+        <h2>2. Data Storage</h2>
+        <ul>
+            <li>All transaction data, budgets, categories, and preferences are stored <strong>exclusively on your device</strong> using a local database.</li>
+            <li>No cloud sync, no remote database, no server-side storage.</li>
+            <li>Uninstalling the app permanently deletes all your data.</li>
+        </ul>
+
+        <h2>3. Data We Do NOT Collect</h2>
+        <ul>
+            <li>We do not collect your name, email, phone number, or any personal identifiers.</li>
+            <li>We do not collect or transmit your bank account details, UPI IDs, or transaction history.</li>
+            <li>We do not access your contacts, location, camera, or microphone.</li>
+            <li>We do not have any user accounts or login systems.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>The app uses the following third-party services:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> Used to display advertisements. AdMob may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. You can opt out of personalized ads via your device's ad settings.</li>
+            <li><strong>Google Play Billing:</strong> Used for in-app purchases (ad removal). Purchase data is managed by Google Play and subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+        </ul>
+
+        <h2>5. Advertising</h2>
+        <ul>
+            <li>The app displays banner advertisements via Google AdMob.</li>
+            <li>AdMob may use your device's advertising ID to serve ads. This is managed by Google, not by us.</li>
+            <li>You can reset or opt out of your advertising ID in your device settings under <em>Settings → Google → Ads</em>.</li>
+            <li>Users who add the home screen widget will see fewer ads within the app.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>This app is not directed at children under 13. We do not knowingly collect any information from children. The app does not require account creation and stores all data locally on-device.</p>
+
+        <h2>7. Permissions Explained</h2>
+        <table style="width:100%; border-collapse:collapse; margin:12px 0;">
+            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:8px; font-weight:600;">READ_SMS / RECEIVE_SMS</td>
+                <td style="padding:8px;">Parse bank transaction SMS locally to auto-record spending</td>
+            </tr>
+            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:8px; font-weight:600;">NotificationListener</td>
+                <td style="padding:8px;">Read banking app notifications to capture transactions</td>
+            </tr>
+            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:8px; font-weight:600;">POST_NOTIFICATIONS</td>
+                <td style="padding:8px;">Show daily spending summaries and budget alerts</td>
+            </tr>
+            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:8px; font-weight:600;">INTERNET</td>
+                <td style="padding:8px;">Load advertisements and process in-app purchases</td>
+            </tr>
+            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:8px; font-weight:600;">SCHEDULE_EXACT_ALARM</td>
+                <td style="padding:8px;">Schedule daily summary notifications at the correct time</td>
+            </tr>
+            <tr>
+                <td style="padding:8px; font-weight:600;">RECEIVE_BOOT_COMPLETED</td>
+                <td style="padding:8px;">Reschedule background tasks after device restart</td>
+            </tr>
+        </table>
+
+        <h2>8. Data Security</h2>
+        <p>Since all data is stored locally on your device, it is protected by your device's own security measures (screen lock, encryption). We recommend keeping your device secure with a PIN, pattern, or biometric lock.</p>
+
+        <h2>9. Your Rights</h2>
+        <ul>
+            <li><strong>Access:</strong> All your data is visible within the app at all times.</li>
+            <li><strong>Deletion:</strong> You can delete individual transactions, or uninstall the app to remove all data permanently.</li>
+            <li><strong>Control:</strong> You can revoke SMS or notification permissions at any time via device settings. The app will continue to work with manual entry.</li>
+        </ul>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page with an updated "Last Updated" date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+        <h2>11. Contact</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:upimoneymanager@proton.me">upimoneymanager@proton.me</a></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 UPI Money Manager. All rights reserved.</p>
+    </div>
+</body>
+</html>
